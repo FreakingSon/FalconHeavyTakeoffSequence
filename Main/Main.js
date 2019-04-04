@@ -37,9 +37,11 @@ function gg() {
         console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
     }
 
-    else{
+    else if(IsTilted == false && IsFueled == true && IsCrewed == true)
+    {
         console.log("We're ready to count down!");
     }
+
 } 
 
     gg();
