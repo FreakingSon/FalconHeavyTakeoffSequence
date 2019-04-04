@@ -1,3 +1,4 @@
+
 let IsTilted;
 let IsFueled;
 let IsCrewed;
@@ -15,8 +16,8 @@ function initialization() {
         IsFueled = true;
     }
 
-    let fuel = window.prompt("Is crew locked and ready to go?");
-    if(fuel == "yes")
+    let crew = window.prompt("Is crew locked and ready to go?");
+    if(crew == "yes")
     {
         IsCrewed = true;
     }
@@ -40,3 +41,5 @@ function initialization() {
         Console.log("We're ready to count down!");
     }
 } 
+
+    initialization();
