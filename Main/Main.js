@@ -1,0 +1,1 @@
+Console.log('Eat a dick, nigga...');
