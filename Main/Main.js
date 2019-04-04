@@ -3,7 +3,7 @@ let IsTilted;
 let IsFueled;
 let IsCrewed;
 
-function initialization() {
+function gg() {
     let tilt = window.prompt("How tiled the rocket is on a lachpad (degrees)?");
     if(tilt == 80)
     {
@@ -24,22 +24,22 @@ function initialization() {
 
     if(IsTilted == true)
     {
-        Console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
+        console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
     }
 
     if(IsFueled == false)
     {
-        Console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
+        console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
     }
 
     if(IsCrewed == false)
     {
-        Console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
+        console.log("We're not ready to launch! Abort the mission or inspect the vehicle!");
     }
 
     else{
-        Console.log("We're ready to count down!");
+        console.log("We're ready to count down!");
     }
 } 
 
-    initialization();
+    gg();
